@@ -29,6 +29,11 @@ export default function Footer() {
             </a>
           </li>
           <li>
+            <a href="#experience" className="transition hover:text-emerald-400">
+              Experience
+            </a>
+          </li>
+          <li>
             <a href="#skills" className="transition hover:text-emerald-400">
               Skills
             </a>
@@ -36,6 +41,11 @@ export default function Footer() {
           <li>
             <a href="#projects" className="transition hover:text-emerald-400">
               Projects
+            </a>
+          </li>
+          <li>
+            <a href="#education" className="transition hover:text-emerald-400">
+              Education
             </a>
           </li>
           <li>

@@ -29,7 +29,7 @@ export const skillGroups = [
     icon: "server",
     description: "Robust server-side engineering, database locking & secure REST APIs",
     items: [
-      "PHP 8+",
+      "PHP",
       "Laravel (10 & 11)",
       "MySQL",
       "RESTful APIs",
@@ -152,5 +152,81 @@ export const projects = [
     live: "https://blood-donor-pkr.infinityfreeapp.com",
     repo: "",
     featured: true,
+  },
+];
+
+export interface ExperienceItem {
+  id: string;
+  role: string;
+  company: string;
+  period: string;
+  type?: string;
+  description: string;
+  highlights: string[];
+  technologies: string[];
+}
+
+export const experiences: ExperienceItem[] = [
+  {
+    id: "spark-solutionz",
+    role: "Laravel & Full-Stack Developer",
+    company: "Spark Solutionz",
+    period: "1.5 Years",
+    type: "Full-time",
+    description:
+      "Architected robust server-side systems, high-concurrency database workflows, Docker containerization, and responsive React.js frontend interfaces for production enterprise platforms.",
+    highlights: [
+      "Architected scalable RESTful APIs and clean backend service layers using PHP and Laravel",
+      "Engineered dynamic frontend user interfaces with React.js, consuming authenticated Laravel REST endpoints",
+      "Optimized MySQL database transactions, row-level locking, and indexes to ensure ACID compliance",
+      "Containerized development workflows with Docker for reliable environment parity across staging and production",
+      "Implemented Role-Based Access Control (RBAC), multi-module integrations, and token authentication",
+      "Integrated third-party APIs including automated SMTP mail dispatch, payment gateways, and webhooks",
+    ],
+    technologies: [
+      "PHP",
+      "Laravel",
+      "React.js",
+      "MySQL",
+      "Docker",
+      "REST APIs",
+      "Eloquent ORM",
+      "Git",
+      "Postman",
+    ],
+  },
+];
+
+export interface EducationItem {
+  id: string;
+  degree: string;
+  institution: string;
+  period: string;
+}
+
+export const education: EducationItem[] = [
+  {
+    id: "bsit",
+    degree: "BSIT (5th Semester Intake)",
+    institution: "University of Sargodha",
+    period: "2024 – 2026",
+  },
+  {
+    id: "adp-cs",
+    degree: "ADP Computer Science",
+    institution: "Riphah International University, Islamabad",
+    period: "2021 – 2023",
+  },
+  {
+    id: "ics",
+    degree: "ICS (Computer Science & Physics)",
+    institution: "BISE Sargodha",
+    period: "2019 – 2021",
+  },
+  {
+    id: "matric",
+    degree: "Matric (Science)",
+    institution: "BISE Sargodha",
+    period: "2017 – 2019",
   },
 ];

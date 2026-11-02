@@ -54,7 +54,7 @@ export default function Hero() {
 
           {/* Core Tech Stack Badges */}
           <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-medium text-slate-200">
-            {["PHP 8+", "Laravel", "React.js", "MySQL", "Docker", "REST APIs"].map((tech) => (
+            {["PHP", "Laravel", "React.js", "MySQL", "Docker", "REST APIs"].map((tech) => (
               <span
                 key={tech}
                 className="rounded-lg border border-slate-700/80 bg-slate-900/80 px-2.5 py-1 text-slate-100 backdrop-blur-sm"
@@ -115,18 +115,18 @@ export default function Hero() {
         {/* Right Column: Clean, Perfectly Framed Avatar */}
         <div className="relative mx-auto flex items-center justify-center">
           {/* Subtle Ambient Glow behind avatar */}
-          <div className="absolute -inset-3 rounded-3xl bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 blur-xl" />
+          <div className="absolute -inset-3 rounded-3xl bg-gradient-to-r from-emerald-500/25 to-cyan-500/25 blur-xl" />
 
           {/* Framed Card with smooth corners */}
-          <div className="soft-float relative overflow-hidden rounded-3xl border border-slate-700/80 bg-slate-900/90 p-2.5 shadow-2xl shadow-emerald-950/30">
-            <div className="relative h-64 w-56 overflow-hidden rounded-2xl bg-slate-950 sm:h-80 sm:w-72">
+          <div className="soft-float relative overflow-hidden rounded-3xl border border-slate-700/80 bg-slate-900/95 p-2 sm:p-2.5 shadow-2xl shadow-emerald-950/40">
+            <div className="relative h-72 w-64 overflow-hidden rounded-2xl border border-slate-200/20 bg-white sm:h-84 sm:w-76">
               <Image
-                src="/umair.jpg"
+                src="/umair-white.png"
                 alt="Umair Asrar - Laravel Developer"
                 fill
                 priority
-                sizes="(max-width: 640px) 224px, 288px"
-                className="object-cover object-top"
+                sizes="(max-width: 640px) 256px, 304px"
+                className="object-contain object-bottom"
               />
             </div>
           </div>
