@@ -82,6 +82,24 @@ export const skillGroups = [
 
 export const projects = [
   {
+    id: "blood-donor",
+    title: "Blood Donor Network & Real-Time Alert System",
+    category: "Healthcare & Real-Time Alerts",
+    badge: "Live Production",
+    tech: ["PHP", "Laravel", "MySQL", "Fetch API", "Gmail SMTP", "Bootstrap 5"],
+    summary:
+      "A live community platform matching critical blood requests with eligible donors using automated cooldown tracking and SMTP notifications.",
+    highlights: [
+      "Instant asynchronous donor filtering across blood types, cities, and availability",
+      "Automated 90-day medical cooldown eligibility tracking via Carbon date engine",
+      "Real-time emergency alert dispatch powered by Laravel Mail and Gmail SMTP",
+      "Zero-reload asynchronous CRUD interface built with modern Fetch API",
+    ],
+    live: "https://blood-donor-pkr.infinityfreeapp.com",
+    repo: "",
+    featured: true,
+  },
+  {
     id: "novex-pharmacy",
     title: "Novex Pharmacy & Enterprise POS System",
     category: "Enterprise POS & Inventory",
@@ -132,24 +150,6 @@ export const projects = [
       "Fully containerized with Docker for seamless development-to-production parity",
     ],
     live: "",
-    repo: "",
-    featured: true,
-  },
-  {
-    id: "blood-donor",
-    title: "Blood Donor Network & Real-Time Alert System",
-    category: "Healthcare & Real-Time Alerts",
-    badge: "Live Production",
-    tech: ["PHP", "Laravel", "MySQL", "Fetch API", "Gmail SMTP", "Bootstrap 5"],
-    summary:
-      "A live community platform matching critical blood requests with eligible donors using automated cooldown tracking and SMTP notifications.",
-    highlights: [
-      "Instant asynchronous donor filtering across blood types, cities, and availability",
-      "Automated 90-day medical cooldown eligibility tracking via Carbon date engine",
-      "Real-time emergency alert dispatch powered by Laravel Mail and Gmail SMTP",
-      "Zero-reload asynchronous CRUD interface built with modern Fetch API",
-    ],
-    live: "https://blood-donor-pkr.infinityfreeapp.com",
     repo: "",
     featured: true,
   },
