@@ -113,7 +113,7 @@ export const projects = [
       "Row-level database locking & ACID transactions preventing concurrency errors",
       "Comprehensive supplier ledger with bank reconciliation and audit logging",
     ],
-    live: "",
+    live: "https://pharmacy-system.free.je",
     repo: "",
     featured: true,
   },
