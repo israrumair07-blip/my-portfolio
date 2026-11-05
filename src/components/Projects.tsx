@@ -67,7 +67,24 @@ export default function Projects() {
                       </li>
                     ))}
                   </ul>
+              
+              
                 </div>
+
+                {p.demo && (
+                  <div className="mt-3 rounded-lg border border-emerald-500/30 bg-emerald-500/10 p-3 text-xs">
+                    <p className="font-semibold text-emerald-300">🔑 Demo login</p>
+                    <p className="mt-1 text-slate-200">
+                      Email: <span className="font-mono text-white">{p.demo.email}</span>
+                    </p>
+                    <p className="text-slate-200">
+                      Password: <span className="font-mono text-white">{p.demo.password}</span>
+                    </p>
+                  </div>
+                )}
+
+
+
               </div>
 
               {/* Bottom Section: Tech Stack & Actions */}

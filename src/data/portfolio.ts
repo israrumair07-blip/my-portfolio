@@ -114,6 +114,7 @@ export const projects = [
       "Comprehensive supplier ledger with bank reconciliation and audit logging",
     ],
     live: "https://pharmacy-system.free.je",
+    demo: { email: "admin@gmail.com", password: "12345678" },
     repo: "",
     featured: true,
   },
