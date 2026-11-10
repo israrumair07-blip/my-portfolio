@@ -49,7 +49,7 @@ export default function ContactForm() {
             id="form-name"
             name="name"
             required
-            placeholder="e.g. Alex Johnson"
+            // placeholder="e.g. Alex Johnson"
             className={inputClass}
           />
         </div>
@@ -63,7 +63,7 @@ export default function ContactForm() {
             name="email"
             type="email"
             required
-            placeholder="e.g. alex@company.com"
+            // placeholder="e.g. alex@company.com"
             className={inputClass}
           />
         </div>
@@ -77,8 +77,8 @@ export default function ContactForm() {
           id="form-message"
           name="message"
           required
-          rows={4}
-          placeholder="Tell me about your project, timeline, or requirements..."
+          // rows={4}
+          // placeholder="Tell me about your project, timeline, or requirements..."
           className={inputClass}
         />
       </div>
